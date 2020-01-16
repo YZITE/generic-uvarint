@@ -1,7 +1,7 @@
 [package]
 name = "generic-uvarint"
 description = "A generic wrapper around unsigned_varint + generic_array"
-version = "0.0.0"
+version = "0.0.1"
 authors = ["Erik Zscheile <erik.zscheile@gmail.com>"]
 edition = "2018"
 license = "MIT"

@@ -1,4 +1,4 @@
-mod decode;
-mod encode;
+pub mod decode;
+pub mod encode;
 
-pub use {decode::Deserialize as VertexIdDeserialize, encode::Serialize as VertexIdSerialize};
+pub use {decode::Deserialize, encode::Serialize};
