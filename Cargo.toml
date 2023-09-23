@@ -1,12 +1,11 @@
 [package]
 name = "generic-uvarint"
 description = "A generic wrapper around unsigned_varint + generic_array"
-version = "0.0.1"
-authors = ["Erik Zscheile <erik.zscheile@gmail.com>"]
+version = "0.1.0"
 edition = "2018"
 license = "MIT"
 repository = "https://github.com/YZITE/generic-uvarint"
 
 [dependencies]
-unsigned-varint = "0.3"
-generic-array = "0.13"
+unsigned-varint = "0.7"
+generic-array = "1.0"

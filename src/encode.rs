@@ -2,7 +2,7 @@ use generic_array::typenum;
 use std::convert::TryInto;
 
 pub trait Serialize: Copy + Sized {
-    type MaxEncLen: generic_array::ArrayLength<u8>;
+    type MaxEncLen: generic_array::ArrayLength;
 
     fn encode(self, buf: &mut generic_array::GenericArray<u8, Self::MaxEncLen>) -> &[u8];
 }
